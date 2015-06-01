@@ -1,0 +1,43 @@
+tendremos una pantalla principal donde se introducirán las fechas y se 
+comprobará la disponibilidad en las fechas solicitadas, tendremos 3 campo
+campos para introducir las fechas, no permitirá poner fechas de entrada
+anteriores a la actual, y fechas de salida que sea al menos un día
+posterior a la de entrada. Por defecto la fecha de entrada estará 
+con el valor de la fecha actual. Tendremos un boton que comprobará la
+disponibilidad y si es correcto nos llevará a la ventana de reserva de
+habitación.
+
+Nos hemos basado en http://www.tripadvisor.es y otros hoteles ya que nos
+parecía lo más sencillo y usable. 
+
+Destacamos que http://www.hotelmozart.net/reservas-mozart.html permitía introducir 
+fechas anteriores a la actual y fechas de salida anterior a la de entrada, cosa que 
+nosotros pretendemos evitar.
+
+
+
+
+
+
+
+Para la ventana de reserva de habitación pondremos 4 Radio Buttons para
+la selección del tipo de habitación (individual, doble, doble de
+uso individual, superior y suite), un combobox para seleccionar el tipo
+de pensión y un botón para confirmar y pasar a la ventana de introducción
+de datos del cliente.
+
+Hemos elegido el estilo de http://www.hotelmozart.net/reservas-mozart.html 
+ya que nos parecía fácil de usar y similar a lo que nosotros teníamos en mente.
+
+
+
+
+
+Para la ventana de datos del titular de la reserva tendremos un parte 
+superior para los datos personales, como nombre, apellidos, NIF, numero de
+teléfono, e-mail, país... y otra parte para los datos bancarios, como tipo
+de tarjeta, titular, numero de tarjeta... y un botón para confirmar los datos
+y pasar a la ventana de confirmación de reserva.
+
+Nos hemos basado en http://www.hoteles-silken.com/ porque tiene un formulario
+grande y visual, que previene deslices.
